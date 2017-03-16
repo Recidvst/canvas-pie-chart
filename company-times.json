@@ -1,21 +1,20 @@
-var slicesJSON = 
 {
-	"company_a": 
+	"company_a":
 		{
 		"total":"80",
 		"current":"50"
 		},
-	"company_b": 
+	"company_b":
 		{
 		"total":"80",
-		"current":"30" 
+		"current":"30"
 		},
-	"company_c": 
+	"company_c":
 		{
 		"total":"100",
-		"current":"90" 
+		"current":"90"
 		},
-	"company_d": 
+	"company_d":
 		{
 		"total":"70",
 		"current":"20"
