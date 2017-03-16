@@ -1,0 +1,14 @@
+{
+	"company_a":
+		{
+		"total":"100",
+		"current":"50",
+		"colour":"blue"
+		},
+	"company_b":
+		{
+		"total":"100",
+		"current":"50",
+		"colour":"red"
+		}
+}

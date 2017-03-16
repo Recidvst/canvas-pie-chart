@@ -2,7 +2,6 @@ var canvas = document.getElementById('chartcanvas');
 var ctx = canvas.getContext('2d');
 
 var total = 0;
-// var color = ['#9aefdd','#dd729e','#6767ea','#ebca7d','#e18769'];
 var angle = 1.5*Math.PI;
 
 $.getJSON( "https://raw.githubusercontent.com/Recidvst/canvas-pie-chart/master/company-times.json", function(jsondata) {
