@@ -23,10 +23,16 @@
 		"current":"30",
 		"colour":"#ebca7d"
 		},
-	"company_3":
+	"company_e":
 		{
 		"total":"100",
 		"current":"60",
 		"colour":"#e18769"
+		},
+	"company_f":
+		{
+		"total":"100",
+		"current":"60",
+		"colour":"red"
 		}
 }
