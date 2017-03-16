@@ -2,21 +2,31 @@
 	"company_a":
 		{
 		"total":"80",
-		"current":"50"
+		"current":"50",
+		"colour":"#9aefdd"
 		},
 	"company_b":
 		{
 		"total":"80",
-		"current":"30"
+		"current":"30",
+		"colour":"#dd729e"
 		},
 	"company_c":
 		{
 		"total":"100",
-		"current":"90"
+		"current":"90",
+		"colour":"#6767ea"
 		},
 	"company_d":
 		{
 		"total":"70",
-		"current":"20"
+		"current":"20",
+		"colour":"#ebca7d"
+		},
+	"company_3":
+		{
+		"total":"100",
+		"current":"70",
+		"colour":"#e18769"
 		}
 }
