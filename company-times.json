@@ -14,19 +14,19 @@
 	"company_c":
 		{
 		"total":"100",
-		"current":"90",
+		"current":"70",
 		"colour":"#6767ea"
 		},
 	"company_d":
 		{
 		"total":"70",
-		"current":"20",
+		"current":"30",
 		"colour":"#ebca7d"
 		},
 	"company_3":
 		{
 		"total":"100",
-		"current":"70",
+		"current":"60",
 		"colour":"#e18769"
 		}
 }
