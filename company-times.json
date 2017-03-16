@@ -1,0 +1,23 @@
+var slicesJSON = 
+{
+	"company_a": 
+		{
+		"total":"80",
+		"current":"50"
+		},
+	"company_b": 
+		{
+		"total":"80",
+		"current":"30" 
+		},
+	"company_c": 
+		{
+		"total":"100",
+		"current":"90" 
+		},
+	"company_d": 
+		{
+		"total":"70",
+		"current":"20"
+		}
+}
