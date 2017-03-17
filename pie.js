@@ -1,25 +1,26 @@
-var canvas = document.getElementById('chartcanvas');
-var ctx = canvas.getContext('2d');
+var canvas = document.getElementById('chartcanvas'),
+		ctx = canvas.getContext('2d'),
+		total = 0,
+		radian = 0,
+		list = "",
+		radius = canvas.width/2;
 
-var total = 0;
-var angle = 0;
-var list = "";
-
-$.getJSON( "https://raw.githubusercontent.com/Recidvst/canvas-pie-chart/master/company-times.json", function(jsondata) {
+$.getJSON( "https://raw.githubusercontent.com/Recidvst/canvas-pie-chart/master/company-times2.json", function(jsondata) {
 	var count = Object.keys(jsondata).length;
 	$.each(jsondata, function(key, data) {
+		total += Number(data.current);
+	});
+	$.each(jsondata, function(key, data) {
 		var num = Number(data.current);
-		total += num;
-		list += "<li>" + key + " = " + data.current + "</li>"
-		$('#total-label').text("Total: " + total);
-		$('#list-label').html(list);
+		list += "<li>" + key + " = " + data.current + "</li>";
 		ctx.fillStyle = data.colour;
 		ctx.beginPath();
-    ctx.strokeStyle = "#fff";
-		ctx.arc(canvas.width/2,canvas.height/2,canvas.height/2,angle,angle+(Math.PI*2*(num/total)));
-		ctx.lineTo(canvas.width/2,canvas.height/2);
+		ctx.arc(radius,radius,radius,radian,radian+(Math.PI*2*(num/total)));
+		ctx.lineTo(radius,radius,radius);
     ctx.stroke();
 		ctx.fill();
-		angle += Math.PI*2*(num/count);
+		radian += Math.PI*2*(num/total);
 	});
+		$('#total-label').text("Total: " + total);
+		$('#list-label').html(list);
 });

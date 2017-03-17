@@ -8,7 +8,7 @@
 	"company_b":
 		{
 		"total":"80",
-		"current":"40",
+		"current":"90",
 		"colour":"#dd729e"
 		},
 	"company_c":
@@ -20,7 +20,7 @@
 	"company_d":
 		{
 		"total":"70",
-		"current":"20",
+		"current":"40",
 		"colour":"#ebca7d"
 		},
 	"company_e":
